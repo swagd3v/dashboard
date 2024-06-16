@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+svg {
+  height: 24px;
+  width: 24px;
+  fill: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.sidebar {
+  background-color: #0ea5e9;
+  height: 100vh;
+  color: white;
+}
+
+.list-items {
+  margin-bottom: 80px;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.icon-text p {
+  margin-left: 5px;
+}
+
+.main {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.logo-text h1 {
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.form-input {
+  width: 500px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+}
+
+.nav2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.header svg {
+  fill: black;
+}
+
+.btn {
+  border-radius: 50px;
+  border: none;
+  background-color: #0ea5e9;
+  color: white;
+  font-weight: bolder;
+  height: 30px;
+  width: 80px;
+  margin: 10px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 40px;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content {
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  background-color: white;
+  border-left: 5px solid #cbf1ff;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.projects h4 {
+  margin: 10px 0px 0px 35px;
+}
+
+.ann-trend {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.ann-card,
+.trend-card {
+  height: 80%;
+  width: 80%;
+  background-color: white;
+}
